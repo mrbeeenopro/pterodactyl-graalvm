@@ -20,6 +20,10 @@ ___
 | 24   | ❌                                     	 | `ghcr.io/rikodev/pterodactyl-graalvm:24-JDK`	| ❌                                          |
 | 25   | ❌                                     	 | `ghcr.io/rikodev/pterodactyl-graalvm:25-JDK`	| ❌                                          |
 
+- **Standard** – GraalVM Community Edition (`graalvm-ce`).
+- **JDK** – Oracle GraalVM (the successor to GraalVM Enterprise), free for production use under the [GraalVM Free Terms and Conditions](https://www.oracle.com/downloads/licenses/graal-free-license.html). It includes the advanced optimizing compiler that delivers higher peak performance than the Community Edition.
+- **Enterprise** – legacy GraalVM Enterprise Edition (discontinued upstream after Java 17).
+
 ___
 
 ## Sponsor
