@@ -33,8 +33,22 @@ export INTERNAL_IP
 # Switch to the container's working directory
 cd /home/container || exit 1
 
+
+echo -e "         +++        "
+echo -e "     +++=+++=++     "
+echo -e "  ++==+-.   .-+=++  "
+echo -e " ++====-.   :==+**+   \033[1m\033[36matakehosting @2026\033[0m"
+echo -e " ++:..-+====+*+:.=+ "
+echo -e " ++:-:...=++::--:++ "
+echo -e " ++:-:.-.-*=::..:++ "
+echo -e " ++--:.-.-*::::..=+ "
+echo -e "  +++-:-.-*+.::-*+  "
+echo -e "     +++--*==*+     "
+echo -e "        ++++        "
+echo ""
+
 # Print Java version
-printf "\033[1m\033[33mcontainer@pterodactyl~ \033[0mjava -version\n"
+printf "\033[1m\033[33mpanel@atakehostl~ \033[0mjava -version\n"
 java -version
 
 # Convert all of the "{{VARIABLE}}" parts of the command into the expected shell
